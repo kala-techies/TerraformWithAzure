@@ -78,7 +78,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 #### **Day 06: Using Local Variables & AKS Deployment**
 
 
-- **Task:** Deploy an AKS cluster with a custom VNET and subnet.
+- **Task:** Deploy an AKS cluster 
 
 ---
 
@@ -90,7 +90,16 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 ---
 
-#### **Day 08: Terraform Meta-Arguments**
+---
+
+#### **Day 08: Using Terraform modules**
+
+
+- **Task:** Deploy identical environments using modules
+
+---
+
+#### **Day 09: Terraform Meta-Arguments**
 
 - **Meta-Arguments:**
   - `depends_on`: Set dependencies between resources.
@@ -102,7 +111,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 ---
 
-#### **Day 09: ForEach for Non-Identical Resources**
+#### **Day 10: ForEach for Non-Identical Resources**
 
 - **ForEach Example:**
   - Useful for deploying non-identical resources like VMs with different configurations.
