@@ -78,15 +78,13 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 #### **Day 06: Using Local Variables & AKS Deployment**
 
 
-    ```
-
 - **Task:** Deploy an AKS cluster with a custom VNET and subnet.
 
 ---
 
 #### **Day 07: Custom VNET for AKS**
 
-- **AKS With it's own network:** In Day 06, AKS used its own VNET. Now, we will ensure it uses a custom VNET.
+- **AKS With it's own network:**  we will ensure it uses a custom VNET.
 
 - **Task:** Modify your AKS configuration to use a custom subnet.
 
