@@ -1,5 +1,5 @@
 
-### Terraform with Azure - Daily Learning
+### Terraform with Azure 
 
 Welcome to **Terraform with Azure** learning series. This repository will guide you step by step, helping you understand Terraform concepts while using the Azure provider.  I will upload code samples to this repository, and contributions are welcome! Feel free to fork and create pull requests. Let's learn together!
 
@@ -77,7 +77,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 #### **Day 06: Using Local Variables & AKS Deployment**
 
-- **Local Variables:**
+
     ```
 
 - **Task:** Deploy an AKS cluster with a custom VNET and subnet.
