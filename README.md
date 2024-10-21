@@ -31,7 +31,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
   - Azure CLI (`az login`) - Best practice to avoid exposing credentials.
   - App Registration & Service Principal (Client ID, Client Secret, Tenant ID, Subscription ID).
 
-- **Task:** Create an Azure Resource Group and Virtual Network using the following code.
+- **Task:** Create an Azure Resource Group and Virtual Network using the code which is in day02.
 
 
 ---
