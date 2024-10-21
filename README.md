@@ -36,7 +36,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 ---
 
-#### **Day 03: Handling Terraform Imports**
+#### **Day 03: Handling Terraform Data Sources & Imports**
 
 - **Concepts:**
   - Deploy new resources.
