@@ -1,6 +1,4 @@
-Here’s an improved and clearer version of your **Day 05** content for the `README.md` file:
 
----
 
 ### Day 05: Managing Multiple `.tfvars` Files
 
