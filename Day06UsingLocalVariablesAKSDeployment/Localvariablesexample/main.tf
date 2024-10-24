@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "azurerm" {
-  subscription_id = "83804c39-5b72-4f70-b7a0-26a3671d4294"
+  subscription_id = "xxxxxxxxxxx"  ## mention your subcrription id here
   features {}
 }
 
