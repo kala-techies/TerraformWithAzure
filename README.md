@@ -75,7 +75,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 ---
 
-#### **Day 06: Using Local Variables & AKS Deployment**
+#### **Day 06: Using Local Variables deploy ACR with default conf & AKS Deployment**
 
 
 - **Task:** Deploy an AKS cluster 
@@ -88,7 +88,6 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 - **Task:** Modify your AKS configuration to use a custom subnet.
 
----
 
 ---
 
