@@ -9,7 +9,7 @@ terraform {
 
 
 provider "azurerm" {
-    subscription_id = "xxxxxxxxxxxxxxx"
+    subscription_id = "83804c39-5b72-4f70-b7a0-26a3671d4294"
     features {}
 }
 
@@ -63,18 +63,20 @@ resource "azurerm_kubernetes_cluster" "clusterref" {
     # Default node pool with Linux OS and auto-scaling
     default_node_pool {
         name                  = "linkala"
-        vm_size               = "Standard_DC2ds_v3"                    ## Standard_DC2ds_v3 
-        min_count             = 1                                      ## Minimum number of nodes
-        max_count             = 5                                      ## Maximum number of nodes
-        vnet_subnet_id        = azurerm_subnet.akssubnetref.id         ## existing vnet usage
+        vm_size               = "Standard_DC2ds_v3"
+        min_count             = 1
+        max_count             = 5
+        vnet_subnet_id        = azurerm_subnet.akssubnetref.id
         type                  = "VirtualMachineScaleSets"
+        auto_scaling_enabled  = true
     }
+
 
      network_profile {
     network_plugin            = "azure"      # Specifies the Azure CNI network plugin for networking
     network_policy            = "calico"     # Sets Calico as the network policy for better network security and control
-    dns_service_ip            = "10.0.0.10"  # IP address for the Kubernetes DNS service within the cluster
-    service_cidr              = "10.0.0.0/16" # IP range for Kubernetes services within the cluster
+    dns_service_ip            = "10.1.0.10"  # IP address for the Kubernetes DNS service within the cluster
+    service_cidr              = "10.1.0.0/16" # IP range for Kubernetes services within the cluster
     load_balancer_sku         = "standard"   # Configures the load balancer SKU to "standard" for high availability and scaling
 }
 

@@ -1,5 +1,5 @@
 aksref = "kala-techies"
-akssubent = "vnetaks01"
-aksvnet = "subnetaks"
+akssubent = "subnetaks"
+aksvnet = "vnetaks01"
 acrname = "acrkalatechies"
 clustername = "akskalatechies"
