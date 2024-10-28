@@ -1,7 +1,7 @@
 
 ### Terraform with Azure 
 
-Welcome to **Terraform with Azure** learning series. This repository will guide you step by step, helping you understand Terraform concepts while using the Azure provider.  I will upload code samples to this repository, and contributions are welcome! Feel free to fork and create pull requests. Let's learn together!
+Welcome to **Terraform with Azure** learning series. This repository will guide you step by step, helping you understand Terraform concepts while using the Azure provider. I will upload code samples to this repository, and contributions are welcome! Feel free to fork and create pull requests. Let's learn together!
 
 ---
 
@@ -22,7 +22,7 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 #### **Day 02: HashiCorp Language & Azure Provider Authentication**
 
 - **Understanding the Files:**
-  - `main.tf`, `variable.tf`, `terraform.tfvars`, `terraform.tfstate`, `terraform.tfstate.lock`
+  - `main.tf`, `variable.tf`, `terraform.tfvars`, `terraform.tfstate`
   
 - **Azure Roles:**
   - Owner, Contributor, Reader
@@ -110,16 +110,25 @@ Welcome to **Terraform with Azure** learning series. This repository will guide 
 
 ---
 
-#### **Day 10: ForEach for Non-Identical Resources**
+#### **Day 10: ForEach for Non-Identical Resources & Remote Backend**
 
-- **ForEach Example:**
+- **ForEach for Non-Identical Resources:**
   - Useful for deploying non-identical resources like VMs with different configurations.
+  - Helps reduce code complexity by enabling parameterized resource deployment.
 
-- **Task:** Deploy multiple non-identical VMs using the `for_each` argument.
+- **Remote Backend with Azure Storage Account:**
+  - Configure remote backend with Azure Storage Account to store Terraform state files securely.
+  - Enables shared state management for collaborative deployments, supporting backup, CI/CD, and robust infrastructure management.
+  - Useful in multi-team environments to prevent conflicts in deployment and ensure consistency.
+
+- **Task:** 
+  - Deploy multiple non-identical VMs using the `for_each` argument.
+  - Configure a remote backend in Azure for shared state storage.
 
 ---
 
 ### Contributing
+
 If you'd like to contribute:
 1. Fork the repo.
 2. Create your feature branch (`git checkout -b feature/new-topic`).
@@ -128,3 +137,6 @@ If you'd like to contribute:
 5. Create a new Pull Request.
 
 ---
+
+**Note:** This repository is designed to assist professionals getting started with **Azure and Terraform** and also serves as a quick reference for experienced users. If you’re interested in contributing or have any questions, feel free to connect with me at **connectwithkala@gmail.com**. Let's make Terraform learning easier together! 
+
